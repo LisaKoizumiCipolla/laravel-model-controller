@@ -1,1 +1,32 @@
 @import "~bootstrap/scss/bootstrap";
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0 auto;
+}
+
+main{
+    width: 100%;
+}
+
+.container{
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.card{
+    width: calc((100% / 3) - 20px);
+    margin-bottom: 30px;
+}
+
+header{
+    text-align: center;
+    padding: 50px;
+}
